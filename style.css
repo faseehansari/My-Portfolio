@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: #0A0119;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+}
+.nav-items{
+    /* border: 1px solid; */
+    display: flex;
+    /* padding: 0 1em; */
+}
+.nav-item{
+    /* border: 1px solid; */
+    list-style: none;
+    margin: 0 2.5em;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero-section{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 3em; 
+    align-items: center;
+    margin: 3em 0;
+    padding: 0 3em;
+
+}
+.hero-pic{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.hero-pic img{
+    border-radius: 50%;
+    width: 90%;
+}
+.btns{
+    display: flex;
+}
+.hero-content h1{
+    /* border: 1px solid; */
+    font-size: 40px;
+    /* width: 55%; */
+    padding: 0.6em 0;
+}
+.hero-content p{
+    /* border: 1px solid red; */
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+.btn{
+    border: 1.5px solid;
+    border-radius: 15px;
+    padding: 0.7em 1em;
+    margin: 0 0.6em;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn1{
+    background-color: #0A0119;
+}
+.btn1 a{
+    color: #fff;
+}
+.btn2 a{
+    color: black;
+}
+.fa-cloud-arrow-down{
+    margin: 0 0.6em;
+}
