@@ -278,3 +278,13 @@ button a {
 .image:hover::after{
     opacity: 1;
 }
+
+
+@media (max-width: 768px){
+    .hero-content{
+        order: 2;
+    }
+    .hero-pic{
+        order: 1;
+    }
+}
