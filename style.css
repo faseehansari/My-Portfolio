@@ -54,7 +54,7 @@ header{
 }
 .hero-pic img{
     border-radius: 50%;
-    width: 90%;
+    width: 75%;
 }
 .btns{
     display: flex;
@@ -121,7 +121,7 @@ header{
     /* border: 1px solid red; */
     overflow: hidden;
     border-radius: 14px;  
-    height: 30vh;          
+    height: 35vh;          
     width: 100%;
     position: relative;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3),
