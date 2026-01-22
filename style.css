@@ -102,12 +102,51 @@ header{
         0 4px 8px rgb(116, 115, 115);
     /* text-decoration: underline; */
 }
+.s-cards{
+    /* border: 1px solid red; */
+    padding: 0.5em ;
+    margin: 0 2em ;
+     display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1em; 
+    align-items: center;
+    justify-content: center;
+}
+.s-card{
+    border: 1px solid;
+    border-radius: 20px;
+    /* height: 15vh; */
+    height: auto;
+    padding: 1em;
+}
+.s-bs{
+    /* border: 1px solid; */
+    display: flex;
+    margin-top: 0.6em;
+}
+.s-b{
+    /* border: 1px solid green; */
+    background-color: rgba(165, 166, 167, 0.568);
+    margin: 0.3em;
+    border-radius: 11px;
+    padding: 0.4em;
+    font-size: 12px;
+}
+.s-b1{
+    background-color: rgba(165, 166, 167, 0.568);
+    margin: 0.3em;
+    border-radius: 11px;
+    padding: 0.4em;
+    font-size: 12px;
+    display: inline-block;
+}
+/* ================================= pROJECT SECTION ============================ */
 .cards{
     /* border: 1px solid red; */
     padding: 1em;
     margin: 1em;
      display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 1.5em; 
     align-items: center;
 }
@@ -121,7 +160,8 @@ header{
     /* border: 1px solid red; */
     overflow: hidden;
     border-radius: 14px;  
-    height: 35vh;          
+    /* height: 26vh;           */
+    height: auto;          
     width: 100%;
     position: relative;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3),
@@ -310,5 +350,14 @@ button a {
     .btn {
         width: 70%;
         margin: 0.3em 0;
+    }
+    .s-card{
+        /* height: 20vh; */
+    }
+    .s-cards{
+        margin: 0 1em ;
+    }
+    .image{
+        height: 30vh;
     }
 }
