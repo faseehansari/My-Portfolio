@@ -107,7 +107,7 @@ header{
     padding: 0.5em ;
     margin: 0 2em ;
      display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 1em; 
     align-items: center;
     justify-content: center;
@@ -118,6 +118,9 @@ header{
     height: 15vh;
     /* height: auto; */
     padding: 1em;
+}
+.s-card h2{
+    font-size: 20px;
 }
 .s-bs{
     /* border: 1px solid; */
@@ -146,7 +149,7 @@ header{
     padding: 1em;
     margin: 1em;
      display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(29%,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 1.5em; 
     align-items: center;
 }
@@ -154,7 +157,6 @@ header{
     /* border: 2px solid yellowgreen; */
     /* width: 30%;  */
     padding: 0.25em;
-    /* height: 20vh; */
 }
 
 .image{
@@ -351,7 +353,10 @@ button a {
         margin: 0.3em 0;
     }
     .s-card{
-        height: 20vh;
+        height: 18vh;
+    }
+    .s-card h2{
+        font-size: 26px;
     }
     .s-cards{
         margin: 0 1em ;
